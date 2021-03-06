@@ -37,7 +37,6 @@ public class DataSetUp {
 			return problems;
 		} catch (FileNotFoundException e) {
 			System.out.println("price list file not found");
-			System.out.println(e.getClass());
 		}
 		return problems;
 	}
@@ -104,7 +103,6 @@ public class DataSetUp {
 			mpfS.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("market price file not found");
-			System.out.println(e.getClass());
 		}
 	}
 	

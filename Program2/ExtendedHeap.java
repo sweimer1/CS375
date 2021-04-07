@@ -4,6 +4,10 @@ public class ExtendedHeap {
 	private ArrayList<Contestant> heap = new ArrayList<Contestant>();
 	private int heapSizeLim;
 	private ArrayList<Integer> handle = new ArrayList<Integer>();//contains places in heap and ID has
+
+	public int getHeapSizeLim() {
+		return heapSizeLim;
+	}
 	
 	public ExtendedHeap(int size) {
 		this.heap.add(null);
@@ -117,7 +121,7 @@ public class ExtendedHeap {
 		if (index > 0) {
 			Contestant update = heap.get(index);
 			update.addPoints(points);
-			System.out.println("Contestant <" + ID + ">’s score increased by <" + points +"> points to <" + update.getTotalPoints() + ">.");
+			System.out.println("Contestant <" + ID + ">'s score increased by <" + points +"> points to <" + update.getTotalPoints() + ">.");
 			heap.set(index, update);
 			minHeapify(index);
 		} else {
@@ -130,7 +134,7 @@ public class ExtendedHeap {
 		if (index > 0) {
 			Contestant update = heap.get(index);
 			update.subtractPoints(points);
-			System.out.println("Contestant <" + ID + ">’s score decreased by <" + points +"> points to <" + update.getTotalPoints() + ">.");
+			System.out.println("Contestant <" + ID + ">'s score decreased by <" + points +"> points to <" + update.getTotalPoints() + ">.");
 			heap.set(index, update);
 			siftUp(index);
 		} else {
@@ -148,7 +152,7 @@ public class ExtendedHeap {
 	
 	public void showContestants() {
 		for (int i = 1; i < heap.size(); i++) {
-			System.out.println("“Contestant <" + heap.get(i).getID() + "> in extended heap location <" + i + "> with score <" + heap.get(i).getTotalPoints() + ">.");
+			System.out.println("Contestant <" + heap.get(i).getID() + "> in extended heap location <" + i + "> with score <" + heap.get(i).getTotalPoints() + ">.");
 		}
 	}
 	

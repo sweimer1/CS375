@@ -1,0 +1,22 @@
+5
+showHandles
+insertContestant <1> <0>
+insertContestant <2> <15>
+insertContestant <3> <80>
+insertContestant <4> <20>
+insertContestant <5> <10>
+insertContestant <4> <20>
+showHandles
+showContestants
+findContestant <5>
+findContestant <6>
+showContestants
+eliminateWeakest
+losePoints <3> <40>
+showContestants
+eliminateWeakest
+earnPoints <2> <10>
+eliminateWeakest
+showContestants
+showHandles
+crownWinner

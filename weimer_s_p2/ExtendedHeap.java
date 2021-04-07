@@ -148,9 +148,10 @@ public class ExtendedHeap {
 	
 	public void crownWinner() {
 		Contestant winner = null;
-		while (heap.size() > 1) {
+		while (heap.size() > 2) {
 			winner = extractMin();
 		}
+		winner = heap.get(1);
 		System.out.println("Contestant <" + winner.getID() + "> wins with score <" + winner.getTotalPoints() + ">!");
 	}
 	

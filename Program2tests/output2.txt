@@ -48,10 +48,11 @@ Contestant <4>'s score decreased by <40> points to <-20>.
 crownWinner
 Contestant <3> wins with score <50>!
 showContestants
+Contestant <3> in extended heap location <1> with score <50>.
 showHandles
 There is no Contestant <1> in the extended heap: handle[<1>] = -1.
 There is no Contestant <2> in the extended heap: handle[<2>] = -1.
-There is no Contestant <3> in the extended heap: handle[<3>] = -1.
+Contestant <3> stored in extended heap location <1>.
 There is no Contestant <4> in the extended heap: handle[<4>] = -1.
 There is no Contestant <5> in the extended heap: handle[<5>] = -1.
 There is no Contestant <6> in the extended heap: handle[<6>] = -1.

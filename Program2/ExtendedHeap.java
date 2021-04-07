@@ -57,7 +57,7 @@ public class ExtendedHeap {
 	}
 	
 	public void insertContestant(int ID, int score) {
-		if (heap.size() > heapSizeLim + 1) {
+		if ((heap.size() > heapSizeLim + 1) || (ID > heapSizeLim)) {
 			System.out.println("Contestant <" + ID + "> could not be inserted because the extended heap is full.");
 		} else if (getHeapIndex(ID) > 0) { //!=0 if contestant should not be reinserted after elimination
 			System.out.println("Contestant <" + ID + "> is already in the extended heap: cannot insert.");

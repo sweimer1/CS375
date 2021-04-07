@@ -14,8 +14,8 @@ insertContestant <4> <20>
 Contestant <4> inserted with initial score <20>.
 insertContestant <5> <10>
 Contestant <5> inserted with initial score <10>.
-insertContestant <4> <20>
-Contestant <4> is already in the extended heap: cannot insert.
+insertContestant <6> <20>
+Contestant <6> could not be inserted because the extended heap is full.
 showHandles
 Contestant <1> stored in extended heap location <1>.
 Contestant <2> stored in extended heap location <5>.

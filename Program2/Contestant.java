@@ -22,11 +22,7 @@ public class Contestant {
 	}
 	
 	public void subtractPoints(int points) {
-		if (totalPoints <= points) {
-			this.totalPoints = 0;
-		} else {
-			this.totalPoints -= points;
-		}
+		this.totalPoints -= points;
 	}
 	
 	public int getID() {

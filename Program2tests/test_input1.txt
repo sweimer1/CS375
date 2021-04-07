@@ -5,7 +5,7 @@ insertContestant <2> <15>
 insertContestant <3> <80>
 insertContestant <4> <20>
 insertContestant <5> <10>
-insertContestant <4> <20>
+insertContestant <6> <20>
 showHandles
 showContestants
 findContestant <5>

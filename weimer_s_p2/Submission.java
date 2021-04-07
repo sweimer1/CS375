@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Submission {
 	public static void main (String args[]) throws Exception {
 		if (args.length != 2) {
-			System.out.println("Please execute using: java Driver <input_file.txt> <output_file.txt>");
+			System.out.println("Please execute using: java Submission <input_file.txt> <output_file.txt>");
 		} else {
 			FileReader file = new FileReader(args[0]);
 			Scanner filescanner = new Scanner(file);

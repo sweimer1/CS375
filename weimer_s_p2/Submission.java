@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Driver {
+public class Submission {
 	public static void main (String args[]) throws Exception {
 		if (args.length != 2) {
 			System.out.println("Please execute using: java Driver <input_file.txt> <output_file.txt>");

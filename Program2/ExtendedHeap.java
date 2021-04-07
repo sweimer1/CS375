@@ -4,6 +4,7 @@ public class ExtendedHeap {
 	private ArrayList<Contestant> heap = new ArrayList<Contestant>();
 	private int heapSizeLim;
 	private ArrayList<Integer> handle = new ArrayList<Integer>();//contains places in heap and ID has
+	int largestID = 0;
 
 	public int getHeapSizeLim() {
 		return heapSizeLim;
@@ -65,6 +66,9 @@ public class ExtendedHeap {
 			heap.add(newContestant);
 			for (int i = handle.size() - 1; i < ID; i++) {//grow handle array if ID is bigger than handle array
 				handle.add(-1);
+			}
+			if (ID > largestID) {
+				largestID = ID;
 			}
 			handle.set(ID, heap.size()-1);//need to set index no matter handle size
 			siftUp(heap.size()-1);

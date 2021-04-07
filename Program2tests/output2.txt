@@ -1,0 +1,58 @@
+showHandles
+There is no Contestant <1> in the extended heap: handle[<1>] = -1.
+There is no Contestant <2> in the extended heap: handle[<2>] = -1.
+There is no Contestant <3> in the extended heap: handle[<3>] = -1.
+There is no Contestant <4> in the extended heap: handle[<4>] = -1.
+There is no Contestant <5> in the extended heap: handle[<5>] = -1.
+There is no Contestant <6> in the extended heap: handle[<6>] = -1.
+There is no Contestant <7> in the extended heap: handle[<7>] = -1.
+insertContestant <1> <0>
+Contestant <1> inserted with initial score <0>.
+insertContestant <2> <15>
+Contestant <2> inserted with initial score <15>.
+insertContestant <3> <80>
+Contestant <3> inserted with initial score <80>.
+insertContestant <4> <20>
+Contestant <4> inserted with initial score <20>.
+insertContestant <5> <10>
+Contestant <5> inserted with initial score <10>.
+insertContestant <6> <30>
+Contestant <6> inserted with initial score <30>.
+findContestant <7>
+Contestant <7> is not in the extended heap.
+showContestants
+Contestant <1> in extended heap location <1> with score <0>.
+Contestant <5> in extended heap location <2> with score <10>.
+Contestant <6> in extended heap location <3> with score <30>.
+Contestant <4> in extended heap location <4> with score <20>.
+Contestant <2> in extended heap location <5> with score <15>.
+Contestant <3> in extended heap location <6> with score <80>.
+eliminateWeakest
+Contestant <1> with current lowest score <0> eliminated.
+losePoints <3> <40>
+Contestant <3>'s score decreased by <40> points to <40>.
+showContestants
+Contestant <5> in extended heap location <1> with score <10>.
+Contestant <2> in extended heap location <2> with score <15>.
+Contestant <6> in extended heap location <3> with score <30>.
+Contestant <4> in extended heap location <4> with score <20>.
+Contestant <3> in extended heap location <5> with score <40>.
+eliminateWeakest
+Contestant <5> with current lowest score <10> eliminated.
+earnPoints <2> <10>
+Contestant <2>'s score increased by <10> points to <25>.
+earnPoints <3> <10>
+Contestant <3>'s score increased by <10> points to <50>.
+losePoints <4> <40>
+Contestant <4>'s score decreased by <40> points to <0>.
+crownWinner
+Contestant <3> wins with score <50>!
+showContestants
+showHandles
+There is no Contestant <1> in the extended heap: handle[<1>] = -1.
+There is no Contestant <2> in the extended heap: handle[<2>] = -1.
+There is no Contestant <3> in the extended heap: handle[<3>] = -1.
+There is no Contestant <4> in the extended heap: handle[<4>] = -1.
+There is no Contestant <5> in the extended heap: handle[<5>] = -1.
+There is no Contestant <6> in the extended heap: handle[<6>] = -1.
+There is no Contestant <7> in the extended heap: handle[<7>] = -1.

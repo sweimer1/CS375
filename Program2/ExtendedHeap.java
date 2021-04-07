@@ -27,7 +27,7 @@ public class ExtendedHeap {
 		if (index > 0) {
 			System.out.println("Contestant <" + ID + "> is in the extended heap with score <" + heap.get(index).getTotalPoints() + ">.");
 		} else {
-			System.out.println("Contestant <" + ID + "> is in not the extended heap.");
+			System.out.println("Contestant <" + ID + "> is not in the extended heap.");
 		}
 	}
 	
@@ -157,8 +157,8 @@ public class ExtendedHeap {
 	}
 	
 	public void showHandles() {
-		for (int i = 1; i < handle.size(); i++) {
-			int index = handle.get(i);
+		for (int i = 1; i <= heapSizeLim; i++) {
+			int index = getHeapIndex(i);
 			if (index > 0) {
 				System.out.println("Contestant <" + i + "> stored in extended heap location <" + index + ">.");
 			} else {
